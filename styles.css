@@ -462,7 +462,7 @@ textarea{
 .button4{
     width: 50%;
     border: none;
-    background: #999;
+    background: #6e93f7;
     color: #333;
     border-radius: 8px;
     padding: 8px 12px;
@@ -474,7 +474,7 @@ textarea{
 
 .button4:hover{
     background: #6e93f7;
-    color:black;
+    color:white;
     cursor: pointer;
 }
 
@@ -897,7 +897,7 @@ ul li {
     justify-content: center;
     height: 100vh;
     margin-top: 250px; 
-    margin-left: 15px;
+    margin-left: 25px;
     width: 100%; /* Ajuste a largura conforme necessário */
 
 }
@@ -1210,9 +1210,30 @@ margin-left: 65px;
 form {
   width: 80%; /* Reduza a largura do formulário para preencher a tela */
   margin: 20px auto; /* Centralize o formulário horizontalmente e adicione espaço superior */
-  padding: 10px; /* Reduza o espaço interno */
+  padding: 20px; /* Reduza o espaço interno */
   padding-right: 15px;
   margin-top: 150px;
+}
+
+input{
+  display: block;
+  width: 95%;
+  border-radius: 8px;
+  background-color: #d3d3d3;
+  font-size: 15px;
+}
+
+textarea{
+  display: block;
+  width: 95%;
+  max-width: 95%;
+  min-width: 95%;
+  height: 300px;
+  max-height: 300px;
+  min-height: 300px;
+  border-radius: 8px;
+  background-color: #d3d3d3;
+  font-size: 15px;
 }
 
 .button4{
@@ -1245,15 +1266,6 @@ form {
 
 
 
-
-
-
-
-
-
-
-
-
 /* Tablets (de 601px a 1024px de largura) */
 @media (min-width: 769px) and (max-width: 1024px) {
   .hero-container {
@@ -1261,11 +1273,6 @@ form {
   }
 }
 
-/* Tablets e Smartphones em paisagem (de 601px a 1024px de largura) */
-@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
-  .hero-container {
-      background-attachment: fixed; /* Restaure a imagem de plano de fundo fixo */
-  }
-}
+
 
 
