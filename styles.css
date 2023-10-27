@@ -915,6 +915,26 @@ ul li {
 }
 
 
+/* Estilização do icones das redes sociais, inicio  */
+.social-buttons {
+  display: flex;
+  gap: 10px; /* Reduza o espaçamento entre os botões */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-top: 35px;
+}
+
+.social-buttons a button {
+  background: transparent;
+  border: none;
+}
+
+.social-buttons a img {
+  width: 44px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+}
+/* Estilização do icones das redes sociais, fim  */
+
 
 /* Estilização do botão */
 #toggle-button {
