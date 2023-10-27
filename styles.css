@@ -22,6 +22,7 @@ h1{
     font-family: 'Oswald', sans-serif;
     color: #fff;
     font-size: 60px;
+    text-align: center;
 }
 
 nav {
@@ -871,6 +872,7 @@ ul li {
     font-size: 36px; /* Reduza o tamanho da fonte do título */
     text-align: center; /* Centralizar o texto horizontalmente */
     white-space: pre-line; /* Manter a quebra de linha para preservar as quebras entre as palavras */
+    
   }
 
   /* Ocultar o menu nas páginas internas */
@@ -935,7 +937,7 @@ ul li {
   margin-top: -50px;
   font-size: 11px;
   white-space: pre-line; /* Manter a quebra de linha para preservar as quebras entre as palavras */
-  margin-left: 49px;
+  margin-left: 60px;
 }
 
 
