@@ -4,6 +4,14 @@
     margin: 0;
 }
 
+
+
+
+
+
+
+
+
 .hero-container{
     height: 100vh;
     display: flex;
@@ -420,6 +428,14 @@ li:hover{
     background-size: cover; 
    
 }
+
+#visme_d {
+  max-width: 80%; /* Ajuste a largura máxima conforme necessário */
+  margin: 0 auto; /* Centralize horizontalmente */
+  overflow-y: hidden; 
+  padding-top: 140px;
+}
+
 
 form {
     display: flex;
