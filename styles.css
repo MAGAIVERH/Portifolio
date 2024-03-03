@@ -864,10 +864,11 @@ textarea{
     overflow-x: hidden;
   }
 
+  /*mudanca no tamanho do form , telas menores*/
   #contato {
     text-align: center; /* Alinhe o conteúdo ao centro */
   }
-  
+
   .content-container {
     max-width: 100%; /* Define a largura máxima como 100% */
     margin: 0 auto; /* Centralize horizontalmente */
