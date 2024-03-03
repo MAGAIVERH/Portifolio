@@ -864,6 +864,23 @@ textarea{
     overflow-x: hidden;
   }
 
+  #contato {
+    text-align: center; /* Alinhe o conteúdo ao centro */
+  }
+  
+  .content-container {
+    max-width: 100%; /* Define a largura máxima como 100% */
+    margin: 0 auto; /* Centralize horizontalmente */
+  }
+  
+  #visme_d {
+    padding-top: 1000px;
+    margin-left: 200px;
+    transform: translate(-50%, -50%); /* Centralize o formulário */
+    width: 100vw; /* Defina a largura como 80% da largura da tela */
+    height: 100vh; /* Defina a altura como 80% da altura da tela */
+  }
+
   .hero-container {
     
       background-attachment: scroll; /* Altere a imagem de plano de fundo para rolável */
@@ -1306,11 +1323,13 @@ textarea{
 
 
 
-/* Tablets (de 601px a 1024px de largura) */
+/* Tablets (de 769px a 1024px de largura) */
 @media (min-width: 769px) and (max-width: 1024px) {
   .hero-container {
       background-attachment: scroll; /* Altere a imagem de plano de fundo para rolável */
   }
+
+  
 }
 
 
