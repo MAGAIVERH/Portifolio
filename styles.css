@@ -15,7 +15,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
 }
 
 nav {
-  position: fixed;
+  display: flex;
   top: 0;
   width: 100%; /* Ocupar toda a largura da página */
   z-index: 1000; /* Valor alto para garantir que o menu esteja acima de outros elementos */
@@ -34,29 +34,30 @@ nav {
 
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
   list-style: none;
-  width: 700px;
+  width: 100%;
   color: #fff;
   font-family: "Oswald", sans-serif;
-  position: fixed;
-  top: 0;
-  margin-left: -320px;
+  margin: 0;
+  padding: 0;
 }
 
-.contatofalso {
-  opacity: 0;
+ul li {
+  margin: 0 70px; /* Adiciona espaçamento entre os itens */
 }
 
-li {
-  font-family: "Oswald", sans-serif;
-  font-size: 21px;
-  color: #fff;
-  cursor: pointer;
+ul li a {
+  text-decoration: none; /* Remove a decoração de texto padrão */
+  color: #fff; /* Define a cor do texto */
+  font-size: 22px; /* Define o tamanho da fonte */
 }
 
-li:hover {
+ul li a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
   color: #6e93f7;
+  transition: 1s;
 }
 
 .sem-sublinhado {
@@ -275,10 +276,16 @@ li:hover {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  margin-right: 53px;
+  overflow: hidden; /* Esconde as imagens que estiverem fora do contêiner */
+}
+
+.carousel {
+  display: flex; /* Permite que as imagens sejam exibidas em uma linha */
+  transition: transform 0.5s ease; /* Adiciona uma transição suave */
 }
 
 .icon-item {
+  margin-right: 5px;
   width: 45px;
   height: 50px;
 }
