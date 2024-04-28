@@ -302,7 +302,7 @@ ul li a:hover {
 .profile-sinopse:hover {
   color: #6e93f7;
   transition: 1s;
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05);
 }
 
 .project-container {
@@ -473,14 +473,6 @@ textarea {
   margin-top: -230px;
 }
 
-.description {
-  font-size: 14px;
-  color: #707070;
-  text-align: center;
-  margin-bottom: 0px;
-  margin-left: 100px;
-}
-
 .name {
   font-size: 22px;
   font-weight: 500;
@@ -549,8 +541,8 @@ textarea {
   font-size: 14px;
   color: #707070;
   text-align: center;
-  margin-right: -300px;
-  margin-top: 80px;
+  margin-right: -270px;
+  margin-top: 90px;
 }
 
 .name2 {
@@ -613,7 +605,7 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 35px;
   margin-left: 60px; /* Ajuste este valor negativo para compensar o movimento do conteúdo interno */
   text-align: center;
 }
@@ -627,7 +619,7 @@ textarea {
   color: #707070;
   text-align: center;
   margin-right: -100px;
-  margin-top: 74px;
+  margin-top: 90px;
   margin-left: -250px;
 }
 
